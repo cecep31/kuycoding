@@ -102,3 +102,24 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+
+
+
+
+  .kiri{
+    float: left;
+    background-color: #ffffff96;
+    padding-top: 10px;
+    padding-right: 70%;
+    padding-bottom: 510px;
+    padding-left: 80px;
+  }
+  .kanan{
+    float: right;
+    background-color: #ffffff96;
+    padding-top: 10px;
+    padding-right: 17%;
+    padding-bottom: 510px;
+    padding-left: 80px;
+  }
