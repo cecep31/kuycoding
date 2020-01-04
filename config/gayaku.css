@@ -45,7 +45,7 @@ body {
 
   .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(51, 51, 51);
   }
   
   .navbar a {
@@ -106,20 +106,77 @@ body {
 
 
 
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
 
   .kiri{
     float: left;
     background-color: #ffffff96;
-    padding-top: 10px;
-    padding-right: 70%;
+    padding-right: 75%;
     padding-bottom: 510px;
-    padding-left: 80px;
+
   }
   .kanan{
     float: right;
     background-color: #ffffff96;
-    padding-top: 10px;
+    
     padding-right: 17%;
     padding-bottom: 510px;
     padding-left: 80px;
   }
+
+
+
+
+/* css bapak */
+.container6{
+	background-color:#003655;
+	height:37px;
+	width:100%;
+	color:#FFFFFF;
+	font-family:Cambria;
+	font-size:14px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	margin-bottom:10px;
+}
+.grid{
+	width:100%;
+	overflow:hidden;
+}
+.dh12 { width:97.91%; }
+.dh12{
+	float:left;
+	display:inline;
+	margin:0 1.04%;
+}
+@media screen and (max-width:720px){
+	.dh1, .dh2, .dh3, .dh4, .dh5, .dh6, .dh7, .dh8, .dh9, .dh10, .dh11, .dh12{
+		width:97.91%;
+		margin-bottom:1em;
+	}
+}
+
